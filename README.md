@@ -1,24 +1,23 @@
 # Lesson Two
 
-What is a variable?
+## What is a variable?
+
 A variable holds a value.
-
-
+```python
 message = "Hello Python world!"
 print(message)
-
-
+```
 You can change the value of a variable at any point.
-
-
+```python
 message = "Hello Python world!"
 print(message)
 
 message = "Python is my favorite language!"
 print(message)
+```
+{% next %}
 
-
-Naming Rules
+# Naming Rules
 Variables can only contain letters, numbers, and underscores. Variable names can start with a letter or an underscore, but can not start with a number.
 Spaces are not allowed in variable names, so we use underscores instead of spaces. For example, use student_name instead of "student name".
 You cannot use Python keywords as variable names.
