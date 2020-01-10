@@ -109,6 +109,6 @@ In case you didn't know [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_v
 1. Clear out any code you have in your code editor to the right.
 2. On line 1, store your own version of the message "Hello World" in a variable named `my_var`, and, on line 2, `print` it.
 
-## 1:
+## 1
 1. on line 3, store a message in a new variable called `new_var`, and then on the next line, `print` that message.
 2. Store a new message in the same variable (`new_var`), and then `print` that new message.
