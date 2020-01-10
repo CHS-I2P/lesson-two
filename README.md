@@ -43,7 +43,7 @@ There is one common error when using variables, that you will almost certainly e
 message = "Thank you for sharing Python with the world, Guido!"
 print(mesage)
 ```
-{% spoiler %}
+{% spoiler "See Output" %}
 ```
 NameError                                 Traceback (most recent call last)
 /home/ehmatthes/development_resources/project_notes/intro_programming/notebooks/<ipython-input-12-7966723379c3> in <module>()
