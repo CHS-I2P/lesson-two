@@ -9,11 +9,11 @@ message = "Hello Python world!"
 print(message)
 ```
 
-{$ spoiler "See Output" %}
+{% spoiler "See Output" %}
 ```
 $ Hello Python world!
 ```
-{$ endspoiler %}
+{% endspoiler %}
 
 You can change the value of a variable at any point.
 
@@ -25,22 +25,22 @@ message = "Python is my favorite language!"
 print(message)
 ```
 
-{$ spoiler "See Output" %}
+{% spoiler "See Output" %}
 ```
 $ Hello Python world!
 $ Python is my favorite language!
 ```
-{$ endspoiler %}
+{% endspoiler %}
 
 ## TODO
 
 1. Create a variable called `my_name` above the print statement on line one. Set the value to your first name.
 
-{$ spoiler "Hint" %}
+{% spoiler "Hint" %}
 ```python
 my_name = "Ryan"
 ```
-{$ endspoiler %}
+{% endspoiler %}
 
 {% next %}
 
@@ -56,11 +56,11 @@ my_name = "Ryan"
 
 1. On second thought, let's rename our variable to make it clearer. Rename `my_name` to `first_name` since it only includes our first name.
 
-{$ spoiler "Hint" %}
+{% spoiler "Hint" %}
 ```python
 first_name = "Ryan"
 ```
-{$ endspoiler %}
+{% endspoiler %}
 
 {% next %}
 
@@ -97,11 +97,11 @@ message = "Thank you for sharing Python with the world, Guido!"
 print(message)
 ```
 
-{$ spoiler "See Output" %}
+{% spoiler "See Output" %}
 ```python
 $ Thank you for sharing Python with the world, Guido!
 ```
-{$ endspoiler %}
+{% endspoiler %}
 
 In case you didn't know [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum) created the Python language over 20 years ago, and he is considered Python's Benevolent Dictator for Life. Guido still signs off on all major changes to the core Python language.
 
