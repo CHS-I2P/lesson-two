@@ -1,6 +1,7 @@
 # Lesson Two
 
 ## What is a variable?
+
 A variable holds a value.
 ```python
 message = "Hello Python world!"
@@ -11,6 +12,7 @@ print(message)
 $ Hello Python world!
 ```
 {% endspoiler %}
+
 You can change the value of a variable at any point.
 
 ```python
@@ -20,7 +22,6 @@ print(message)
 message = "Python is my favorite language!"
 print(message)
 ```
-
 {% spoiler "See Output" %}
 ```
 $ Hello Python world!
@@ -31,7 +32,6 @@ $ Python is my favorite language!
 ## TODO
 
 1. Create a variable called `my_name` above the print statement on line one. Set the value to your first name.
-
 {% spoiler "Hint" %}
 ```python
 my_name = "Ryan"
@@ -94,7 +94,7 @@ print(message)
 ```
 
 {% spoiler "See Output" %}
-```python
+```
 $ Thank you for sharing Python with the world, Guido!
 ```
 {% endspoiler %}
