@@ -3,10 +3,12 @@
 ## What is a variable?
 
 A variable holds a value.
+
 ```python
 message = "Hello Python world!"
 print(message)
 ```
+
 {$ spoiler "See Output" %}
 ```
 $ Hello Python world!
@@ -14,6 +16,7 @@ $ Hello Python world!
 {$ endspoiler %}
 
 You can change the value of a variable at any point.
+
 ```python
 message = "Hello Python world!"
 print(message)
@@ -21,6 +24,7 @@ print(message)
 message = "Python is my favorite language!"
 print(message)
 ```
+
 {$ spoiler "See Output" %}
 ```
 $ Hello Python world!
@@ -31,6 +35,7 @@ $ Python is my favorite language!
 ## TODO
 
 1. Create a variable called `my_name` above the print statement on line one. Set the value to your first name.
+
 {$ spoiler "Hint" %}
 ```python
 my_name = "Ryan"
@@ -50,6 +55,7 @@ my_name = "Ryan"
 ## TODO
 
 1. On second thought, let's rename our variable to make it clearer. Rename `my_name` to `first_name` since it only includes our first name.
+
 {$ spoiler "Hint" %}
 ```python
 first_name = "Ryan"
@@ -61,10 +67,12 @@ first_name = "Ryan"
 # NameError
 
 There is one common error when using variables, that you will almost certainly encounter at some point. Take a look at this code, and see if you can figure out why it causes an error.
+
 ```python
 message = "Thank you for sharing Python with the world, Guido!"
 print(mesage)
 ```
+
 {% spoiler "See Output" %}
 ```
 NameError                                 Traceback (most recent call last)
@@ -83,10 +91,12 @@ You may have already spotted the source of the error. We spelled message two dif
 This is pretty important, because it allows us to have a variable `name` with a single name in it, and then another variable `names` with a bunch of names in it.
 
 We can fix NameErrors by making sure all of our variable names are spelled consistently.
+
 ```python
 message = "Thank you for sharing Python with the world, Guido!"
 print(message)
 ```
+
 {$ spoiler "See Output" %}
 ```python
 $ Thank you for sharing Python with the world, Guido!
