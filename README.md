@@ -43,7 +43,7 @@ There is one common error when using variables, that you will almost certainly e
 message = "Thank you for sharing Python with the world, Guido!"
 print(mesage)
 ```
-{% hint %}
+{% spoiler %}
 ```
 NameError                                 Traceback (most recent call last)
 /home/ehmatthes/development_resources/project_notes/intro_programming/notebooks/<ipython-input-12-7966723379c3> in <module>()
@@ -52,6 +52,8 @@ NameError                                 Traceback (most recent call last)
 
 NameError: name 'mesage' is not defined
 ```
+{% endspoiler %}
+
 Click the Hint button above to see the error message and let's look through it. First, we see it is a NameError. Then we see the file that caused the error, and a green arrow shows us what line in that file caused the error. Then we get some more specific feedback, that "name 'mesage' is not defined".
 
 You may have already spotted the source of the error. We spelled message two different ways. Python does not care whether we use the variable name `message` or `mesage`. Python only cares that the spellings of our variable names match every time we use them.
