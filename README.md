@@ -1,20 +1,16 @@
 # Lesson Two
 
 ## What is a variable?
-
 A variable holds a value.
-
 ```python
 message = "Hello Python world!"
 print(message)
 ```
-
 {% spoiler "See Output" %}
 ```
 $ Hello Python world!
 ```
 {% endspoiler %}
-
 You can change the value of a variable at any point.
 
 ```python
