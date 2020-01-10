@@ -7,6 +7,12 @@ A variable holds a value.
 message = "Hello Python world!"
 print(message)
 ```
+{$ spoiler "See Output" %}
+```
+$ Hello Python world!
+```
+{$ endspoiler %}
+
 You can change the value of a variable at any point.
 ```python
 message = "Hello Python world!"
@@ -15,10 +21,21 @@ print(message)
 message = "Python is my favorite language!"
 print(message)
 ```
+{$ spoiler "See Output" %}
+```
+$ Hello Python world!
+$ Python is my favorite language!
+```
+{$ endspoiler %}
 
 ## TODO
 
 1. Create a variable called `my_name` above the print statement on line one. Set the value to your first name.
+{$ spoiler "Hint" %}
+```python
+my_name = "Ryan"
+```
+{$ endspoiler %}
 
 {% next %}
 
@@ -33,6 +50,11 @@ print(message)
 ## TODO
 
 1. On second thought, let's rename our variable to make it clearer. Rename `my_name` to `first_name` since it only includes our first name.
+{$ spoiler "Hint" %}
+```python
+first_name = "Ryan"
+```
+{$ endspoiler %}
 
 {% next %}
 
@@ -54,7 +76,7 @@ NameError: name 'mesage' is not defined
 ```
 {% endspoiler %}
 
-Click the Hint button above to see the error message and let's look through it. First, we see it is a NameError. Then we see the file that caused the error, and a green arrow shows us what line in that file caused the error. Then we get some more specific feedback, that "name 'mesage' is not defined".
+Click the **See Output** button above to see the error message and let's look through it. First, we see it is a `NameError`. Then we see the file that caused the error, and an arrow shows us what line in that file caused the error. Then we get some more specific feedback, that `name 'mesage' is not defined`.
 
 You may have already spotted the source of the error. We spelled message two different ways. Python does not care whether we use the variable name `message` or `mesage`. Python only cares that the spellings of our variable names match every time we use them.
 
@@ -65,7 +87,13 @@ We can fix NameErrors by making sure all of our variable names are spelled consi
 message = "Thank you for sharing Python with the world, Guido!"
 print(message)
 ```
-In case you didn't know Guido van Rossum created the Python language over 20 years ago, and he is considered Python's Benevolent Dictator for Life. Guido still signs off on all major changes to the core Python language.
+{$ spoiler "See Output" %}
+```python
+$ Thank you for sharing Python with the world, Guido!
+```
+{$ endspoiler %}
+
+In case you didn't know [Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum) created the Python language over 20 years ago, and he is considered Python's Benevolent Dictator for Life. Guido still signs off on all major changes to the core Python language.
 
 {% next %}
 
